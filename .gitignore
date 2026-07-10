@@ -1,0 +1,32 @@
+# 仮想環境）
+.venv/
+
+# APIキーなどの秘密情報
+.env
+
+# Pythonのキャッシュ
+__pycache__/
+*.pyc
+
+# ベクトルDB
+chroma_db/
+chroma_db_semantic/
+
+# 実験用スクラッチ
+test.ipynb
+
+# 評価結果
+eval_result.csv
+
+# GraphRAG（networkx版）のキャッシュ・可視化
+graph.pickle
+graph.html
+
+# Jupyterの作業ファイル
+.ipynb_checkpoints/
+
+# Claude Code
+.claude/
+
+
+data/
